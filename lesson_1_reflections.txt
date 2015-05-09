@@ -1,0 +1,24 @@
+Diff highlighted the line that had changed. It made it easy to spot the problem.
+
+If you go down a stupid road, it will allow you to recover from where you want wrong.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Manual allows you to create commits on logical changes. However, you could forget to commit and wait too long before them. Automatic commits might create too many versions.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Code projects involved the interplay of many different files. A class in one file will be referenced by another. Word documents and the like are often just worked on by themselves. Multiple file tracking is mostly unnecessary. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows you list of commits with the commit comment. From the id of the commit, you can use diff to dig into the actual differences.
+
+How might using version control make you more confident to make changes that could break something?
+
+VC makes it simpler to revert to an older version. If you break something, you can always just revert to the older version. Measure once, cut once!
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+
+I want to learn my way around existing github repos. I would like to use it on my own projects.
