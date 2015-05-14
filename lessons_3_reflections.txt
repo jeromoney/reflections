@@ -6,3 +6,7 @@ Working on a joint project, it seems important to maintain a central repository 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 You want to make sure that the version doesn't change out from underneath you.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This avoids having merge conflicts. By working with the latest code, you’ll minimize the chance that your code will have conflicts.
