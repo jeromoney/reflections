@@ -5,3 +5,23 @@ It creates a set of invisible files that are used to track versions.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area allows you to mess with your files. It gives you time to change without creating additional commits.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area allows you to collect several files to make so you don’t commit too many changes. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If you are pondering trying to move your code in an experimental direction, you can create a branch to track that side attempt.
+
+How do the diagrams help you visualize the branch structure?
+
+Branches create a non-linear structure that is easy to visualize.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches creates just a single branch. The diagram reflects this.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Like all automated processes, automatic merging can save you time, and possibly eliminate errors. However, it might be too smart for it’s own good and overlook changes that will introduce bugs. At this time, I don’t have the experience and judgement to understand how well it works.
