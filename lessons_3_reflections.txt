@@ -10,3 +10,7 @@ You want to make sure that the version doesn't change out from underneath you.
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 This avoids having merge conflicts. By working with the latest code, you’ll minimize the chance that your code will have conflicts.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+If you want to experiment on repository and want to try something out without mucking up the master branch, you should create another branch. However, if the change is directly achieving the goals of the project, you should just work on master.
