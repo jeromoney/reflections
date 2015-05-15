@@ -2,7 +2,6 @@ When would you want to use a remote repository rather than keeping all your work
 
 Working on a joint project, it seems important to maintain a central repository for everyone to work from.
 
-
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 You want to make sure that the version doesn't change out from underneath you.
@@ -14,3 +13,7 @@ This avoids having merge conflicts. By working with the latest code, you’ll mi
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Git would make it easier to store large files and keep it private (without paying.) Github would be better for collaborating with people over different platforms.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+If you want to experiment on repository and want to try something out without mucking up the master branch, you should create another branch. However, if the change is directly achieving the goals of the project, you should just work on master.
